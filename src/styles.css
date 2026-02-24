@@ -74,6 +74,7 @@ body {
 
 .language-select option {
     background-color: var(--card-bg);
+    color: var(--text-primary);
 }
 
 /* Button Styles */
