@@ -76,3 +76,7 @@ github-random-repo/
 ## License
 
 MIT
+
+## Credits
+
+Created as part of the [Frontend Developer Roadmap](https://roadmap.sh/projects/github-random-repo) learning path.
