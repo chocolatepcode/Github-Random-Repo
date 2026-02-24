@@ -84,7 +84,8 @@ class GitHubRepoFinder {
         this.languages.forEach(lang => {
             const option = document.createElement('option');
             option.value = lang.value;
-            option.textContent = lang.label;
+            // Check for 'title' (used by the API) or 'label' (used by fallback)
+            option.textContent = lang.title || lang.label;
             this.languageSelect.appendChild(option);
         });
     }
